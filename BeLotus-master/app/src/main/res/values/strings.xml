@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BeLotus</string>
+
+    <string name="log_in">Connexion</string>
+    <string name="home_text">Home</string>
+    <string name="bluetooth_text">Bluetooth</string>
+    <string name="profile_text">Profile</string>
+    <string name="graph_text">Graphic</string>
+    <string name="alert_text">Alert</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="play">play</string>
+    <string name="ble_device_status_connecting">Connexion en cours</string>
+    <string name="ble_device_connected">Vous êtes connecté au pansement</string>
+    <string name="ble_device_disconnected">Vous êtes déconnecté du pansement</string>
+    <string name="ble_device_status_disconnecting">Vous êtes en train de vous déconnecter</string>
+    <string name="ble_scan_error">Erreur lors du scan</string>
+    <string name="ble_scan_pause">Scan en pause</string>
+    <string name="ble_scan_play">Scan en cours</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

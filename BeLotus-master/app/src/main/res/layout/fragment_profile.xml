@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".ProfileFragment">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:padding="1dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/ic_notification"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"/>
+
+                    <ImageView
+                        android:id="@+id/basket"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="45dp"
+                        android:layout_marginBottom="5dp"
+                        android:padding="1dp"
+                        android:src="@drawable/ic_shopping" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Mon Profil"
+                    android:layout_marginStart="15dp"
+                    android:textColor="@color/blue"
+                    android:textSize="30sp"
+                    android:textStyle="normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_height="wrap_content"
+            layout="@layout/item_image"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="240dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/item_add" />
+
+            <include layout="@layout/items_info" />
+
+            <include layout="@layout/items_email" />
+
+        </LinearLayout>
+
+    </ScrollView>
+    </LinearLayout>

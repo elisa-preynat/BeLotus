@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "542889174270",
+    "project_id": "belotus-20b13",
+    "storage_bucket": "belotus-20b13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542889174270:android:d96cef905477bb33a4b1af",
+        "android_client_info": {
+          "package_name": "com.example.curve_navigation_bar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542889174270-bcsu1rmenfad5mda5g4ejtuarg7p9776.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcFGKTaWbjqTlpGIVqUQRB_LywQD9Ahhw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542889174270-bcsu1rmenfad5mda5g4ejtuarg7p9776.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

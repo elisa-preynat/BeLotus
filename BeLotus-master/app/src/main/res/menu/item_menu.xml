@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+
+    <item android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/profile_text" />
+
+    <item
+        android:id="@+id/nav_bluetooth"
+        android:icon="@drawable/ic_bluetooth"
+        android:title="@string/bluetooth_text" />
+
+    <item
+        android:id="@+id/nav_graph"
+        android:icon="@drawable/ic_graphic"
+        android:title="@string/graph_text" />
+
+    <item
+        android:id="@+id/nav_alert"
+        android:icon="@drawable/ic_notifications"
+        android:title="@string/alert_text" />
+
+
+
+</menu>
